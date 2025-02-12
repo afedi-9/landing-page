@@ -1,0 +1,204 @@
+html{
+    font-size: 62.5%;
+}
+
+.header{
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.3)),url('/images/bg-main.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 0 200px;
+    background-color: #020130;
+    color: white;
+    font-size: larger;
+    box-shadow: 20%;
+}
+
+.nav-icon{
+    text-decoration: none;
+    color: white; 
+    
+}
+
+.nav-items{
+    display: flex; 
+    gap: 20px;   
+    list-style: none;
+    margin-left: auto;
+    color: white;
+}
+.search-icon{
+    justify-self: end;
+    margin-left: auto;
+
+
+}
+.container{
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* padding: 150px; */
+    align-items: center;
+    height: 60vh;
+    /* font-size: 300%; */
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+.container h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 8rem;
+}
+
+.container h4 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-style: italic;
+    
+}
+.container button{
+    padding: 10px 15px;
+    border-radius: 12px;
+    border:none;
+    background: #020130;
+    color: white;
+}
+
+.cards-container{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 8%;
+    
+}
+.card-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.card-text h1{
+    font-size: 5rem;
+    margin-top: 1;
+    margin-bottom: 0;
+}
+.card-text p{
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-image: url('../images/cape-coast-castle-830x540.jpg');
+    height: 60vh;
+    width: 330px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;   
+   
+}
+
+.card1 h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 70%;
+    padding-left: 19px;
+}
+.card1 p{
+    display: flex;
+    justify-content: center;
+    /* padding-top: 40%;
+    padding-left: 19px; */
+}
+.card2{
+     display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-image: url('../images/Kwame-Nkrumah-Memorial-Park_and_Mausoleum_Ghana_exterior_freedom_Wall.webp');
+    height: 60vh;
+    width: 330px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+.card2 h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 70%;
+    padding-left: 19px;
+}
+.card2 p{
+    display: flex;
+    justify-content: center;
+    /* padding-top: 40%;
+    padding-left: 19px; */
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-image: url('../images/Aburi-4.jpeg');
+    height: 60vh;
+    width: 330px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+.card3 h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 70%;
+    padding-left: 19px;
+}
+.card3 p{
+    display: flex;
+    justify-content: center;
+    /* padding-top: 40%;
+    padding-left: 19px; */
+}
+.top{
+    /* padding: 10px 15px; */
+    /* border-radius: 12px; */
+    border:none;
+    background: #d1d1da;
+    color: white;
+    margin-bottom: 5%;
+
+}
+.btn{
+    margin-left: 25%; 
+    height: 50px;
+    width: 100px;
+    border-radius: 25%;
+    border:none;
+    background: rgb(rgb(224, 134, 15), green, blue);
+    color: black;
+
+}
+.offers{
+    display: flex;
+    background-image: rgb;
+}
+
+
+
