@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href= "css/style.css">
     <link rel="stylesheet" href= "css/reset.css">
+    
 
 </head>
 <body>
      <!-- header section ends -->
-    <header class="header">
+    <header class="header" id="home">
         
 
         <nav class="navbar">
@@ -21,11 +22,11 @@
             ABhAMgYIBBAAGEAyBggFEAAYQDIGCAYQABhAMgYIBxAAGEAyBggIEAAYQNIBCDgyMDRqMGoxqA
             IIsAIB&FORM=ANAB01&DAF0=1&PC=U531" target="_blank" class="nav-icon">TourWithMe</a>
             <ul class="nav-items">
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Offers</li>
-                <li>News</li>
-                <li>Contact</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
             <div class="search-icon">
                 <i class="fa fa-search" aria-hidden="true"></i>
@@ -45,10 +46,55 @@
     
 <!-- header section ends -->
     </header>
+
+
+    <!-- Forms section  -->
+    <form action="" class="forms">
+        <div  class="input-filed">
+            <label for="destination">destination</label>
+            <input type="text" name="destination" id="" placeholder="Enter your Destination">
+        </div>
+
+        <div class="input-filed">
+            <label for="check in">check in</label>
+            <input type="date" name="check in" id="">
+        </div>
+        <div class="input-filed">
+            <label for="check out">check out</label>
+            <input type="date" name="check out" id="">
+        </div>
+
+        <div class="input-filed">
+            <label for="Adults">Adults</label>
+            <select name="Adults" id="">
+                
+                <option value="1">01</option>
+                <option value="2">02</option>
+                <option value="3">03</option>
+                <option value="4">04</option>
+                <option value="5">05</option>
+                
+            </select>
+        </div>
+ 
+        <div class="input-filed">
+            <label for="Children">Children</label>
+            <select name="Children" id="">
+               
+                <option value="1">01</option>
+                <option value="2">02</option>
+                <option value="3">03</option>
+                <option value="4">04</option>
+                <option value="5">05</option>
+                
+            </select>
+        </div>
+        <!-- Forms sedtion ends -->
+    </form>
     
 
     
-     <section class="cards-container">
+     <section class="cards-container" id="about">
         <!-- about section starts --> 
          <div class="card-text">
             <h1>We have the best tours</h1>
@@ -57,27 +103,42 @@
          </div>
          <div class="cards">
             <div class="card1">
-                <button class="top">Feb 12th 2025</button>
+                <div class="card1-text">
+                
                 <h1>Cape Coast Castle</h1>
                 <p>From $50</p>
                 <i class="fa fa-star-0" aria-hidden="true"></i>   
-                <button class="btn">see more...</button>          
+                
+                </div>
+                <div>
+                    <button class="btn">see more...</button> 
+                </div>
+
+                         
             </div>
 
             <div class="card2">
-                <button class="top">Feb 12th 2025</button>
+                <div class="card1-text">
+                    
                 <h1>kakum</h1>
                 <p>From $50</p>
                 <i class="fa fa-star-0" aria-hidden="true"></i> 
-                <button class="btn">see more...</button>>
+             
+                </div>
+                <div>
+                    <button class="btn">see more...</button>>
+                </div>
 
             </div>
             <div class="card3">
-                <button class="top">Feb 12th 2025</button>
+                <div class="card1-text">
                 <h1>kwame Nkrumah</h1>
                 <p>From $50</p>
                 <i class="fa fa-star-0" aria-hidden="true"></i> 
-                <button class="btn">see more...</button>
+                </div>
+                <div>
+                    <button class="btn">see more...</button>
+                </div>
 
             </div>
             

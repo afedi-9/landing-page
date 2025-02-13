@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+/*     
+        font-family: "Lato", serif;
+        font-weight: 1000;
+        font-style: normal; */
+      
+}
+
 html{
     font-size: 62.5%;
 }
 
 .header{
-    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.3)),url('/images/bg-main.jpg');
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.3)),url('../images/bg-main.jpg');
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,15 +37,23 @@ html{
 .nav-icon{
     text-decoration: none;
     color: white; 
+    font-size: 2rem;
     
 }
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+
 
 .nav-items{
-    display: flex; 
-    gap: 20px;   
-    list-style: none;
-    margin-left: auto;
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
     color: white;
+    margin-left: auto;
 }
 .search-icon{
     justify-self: end;
@@ -53,6 +71,7 @@ html{
     /* font-size: 300%; */
     flex-direction: column;
     font-weight: bolder;
+    font-size: 4rem;
 }
 
 .container h1{
@@ -74,131 +93,89 @@ html{
     background: #020130;
     color: white;
 }
-
-.cards-container{
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
 .cards{
     display: flex;
     align-items: center;
-    gap: 8%;
-    
+    justify-content: center;
+    gap: 4%;
 }
+
 .card-text{
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+    font-size: 2rem;
 }
 .card-text h1{
-    font-size: 5rem;
-    margin-top: 1;
+    /* margin-top: 0; */
     margin-bottom: 0;
 }
 .card-text p{
-    font-size: 2rem;
-    margin-top: 0;
+    margin-top: 1;
+    /* margin-bottom: 0; */
 }
 
 .card1{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    background-image: url('../images/cape-coast-castle-830x540.jpg');
-    height: 60vh;
-    width: 330px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;   
-   
-}
-
-.card1 h1{
-    display: flex;
-    justify-content: center;
-    padding-top: 70%;
-    padding-left: 19px;
-}
-.card1 p{
-    display: flex;
-    justify-content: center;
-    /* padding-top: 40%;
-    padding-left: 19px; */
+    background-image: url("../images/cape-coast-castle-830x540.jpg");
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 300px;
+   width: 300px;
+    
 }
 .card2{
-     display: flex;
-    flex-direction: column;
-    align-content: center;
-    background-image: url('../images/Kwame-Nkrumah-Memorial-Park_and_Mausoleum_Ghana_exterior_freedom_Wall.webp');
-    height: 60vh;
-    width: 330px;
+    background-image: url("../images/Kwame-Nkrumah-Memorial-Park_and_Mausoleum_Ghana_exterior_freedom_Wall.webp");
+    /* background-attachment: fixed; */
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; 
-}
+    background-size: cover;
+    height: 300px;
+    width: 300px;
 
-.card2 h1{
-    display: flex;
-    justify-content: center;
-    padding-top: 70%;
-    padding-left: 19px;
-}
-.card2 p{
-    display: flex;
-    justify-content: center;
-    /* padding-top: 40%;
-    padding-left: 19px; */
 }
 .card3{
+    background-image: url("../images/cape-coast-castle-830x540.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.card1-text{
     display: flex;
     flex-direction: column;
-    align-content: center;
-    background-image: url('../images/Aburi-4.jpeg');
-    height: 60vh;
-    width: 330px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; 
-}
-.card3 h1{
-    display: flex;
+    align-items: center;
     justify-content: center;
-    padding-top: 70%;
-    padding-left: 19px;
+    padding-top: 35%;
+    color:black;
+    text-transform: uppercase;
 }
-.card3 p{
+
+
+.forms{
+    background: rgb(36,0,25);
+background: linear-gradient(90deg, rgba(36,0,25,0.8673844537815126) 0%, rgba(11,67,89,1) 0%, rgba(0,212,255,1) 99%);
+display: flex;
+justify-content: center;
+height: 20vh;
+align-items: center;
+gap: 2rem;
+}
+
+.input-filed{
     display: flex;
-    justify-content: center;
-    /* padding-top: 40%;
-    padding-left: 19px; */
+    flex-direction: column;
+    gap: 5px;
 }
-.top{
-    /* padding: 10px 15px; */
-    /* border-radius: 12px; */
-    border:none;
-    background: #d1d1da;
+input, select{
+    padding: 10px;
+}
+label{
+    text-transform: uppercase;
     color: white;
-    margin-bottom: 5%;
-
 }
-.btn{
-    margin-left: 25%; 
-    height: 50px;
-    width: 100px;
-    border-radius: 25%;
-    border:none;
-    background: rgb(rgb(224, 134, 15), green, blue);
-    color: black;
-
-}
-.offers{
-    display: flex;
-    background-image: rgb;
-}
-
 
 
